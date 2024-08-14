@@ -11,7 +11,8 @@ import SwiftUI
 struct ListToGridAndBackApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ProductsScreenView()
+                .preferredColorScheme(.light)
         }
     }
 }
